@@ -1,4 +1,4 @@
 baseURL = 'https://dazeddd.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = '한글 테스트'
 theme = 'paper'
