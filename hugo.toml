@@ -2,3 +2,19 @@ baseURL = 'https://dazeddd.github.io/'
 languageCode = 'ko-kr'
 title = 'Tech Blog'
 theme = 'paper'
+
+[params]
+    github = 'dazeddd'
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 10

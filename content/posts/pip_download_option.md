@@ -1,8 +1,8 @@
-+++
-title = '[Python] pip download --platform 옵션'
-date = 2023-10-03T20:29:18+09:00
-draft = false 
-+++
+---
+title: '[Python] pip download --platform 옵션'
+date: 2023-10-03T20:29:18+09:00
+draft: false
+---
 
 오프라인 환경에서 파이썬으로 작업을 할 경우 패키지 파일을 다운로드 받은 후 직접 설치해야 하는 경우가 있다.
 
