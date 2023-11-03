@@ -1,4 +1,4 @@
-## clone 해서 작업할 경우
+## git clone 해서 작업할 경우
 
 ```bash
 git submodule init
@@ -25,3 +25,8 @@ git submodule update
         async>
 </script>
 ```
+
+## POST TODO
+
+https://dazeddd.tistory.com/29
+https://dazeddd.tistory.com/65
