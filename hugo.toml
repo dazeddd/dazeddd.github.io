@@ -7,6 +7,15 @@ theme = 'paper'
     github = 'dazeddd'
     avatar = 'paulo9428@naver.com'
 
+[params.giscus]
+  repo = 'dazeddd/tech-blog-comments'                 # see https://giscus.app for more details
+  repoId = 'R_kgDOKol98A'
+  category = 'General'
+  categoryId = 'DIC_kwDOKol98M4CapgL'
+  mapping = 'pathname'
+  theme = 'preferred_color_scheme'
+  lang = 'ko'
+
 [menu]
 
   [[menu.main]]
