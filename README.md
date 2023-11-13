@@ -29,8 +29,3 @@ hugo new content content/posts/my-post.md
         async>
 </script>
 ```
-
-## POST TODO
-
-https://dazeddd.tistory.com/29
-https://dazeddd.tistory.com/65
