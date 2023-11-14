@@ -2,6 +2,7 @@ baseURL = 'https://dazeddd.github.io/'
 languageCode = 'ko-kr'
 title = 'Tech Blog'
 theme = 'paper'
+paginate = 5
 
 [params]
     github = 'dazeddd'
@@ -17,7 +18,6 @@ theme = 'paper'
   lang = 'ko'
 
 [menu]
-
   [[menu.main]]
     identifier = "about"
     name = "About"
@@ -28,3 +28,8 @@ theme = 'paper'
     name = "Contact"
     url = "/contact/"
     weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"

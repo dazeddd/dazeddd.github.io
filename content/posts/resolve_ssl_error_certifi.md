@@ -1,7 +1,10 @@
 +++
 title = '[Python] certifi 패키지를 활용한 requests SSL 에러 해결'
-date = 2023-11-14T11:29:24+09:00
+date = 2023-03-20T11:29:24+09:00
 draft = false
+tags = [
+    "ssl",
+]
 +++
 
 python requests 패키지 **2.16 버전 이후 부터는** certifi 모듈을 사용하여 CA 인증서를 관리한다.
