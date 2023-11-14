@@ -15,6 +15,7 @@ wsl ubuntu 에서 작업을 하는 데 SSL 인증 오류가 발생해서, 해당
 pypi.org domain 의 ssl 인증서를 등록한다고 했을 때 위와 같은 방법으로 SSL 인증서를 내려받는다
 
 ```bash
+# 해당 디렉터리에 인증서 파일을 옮긴 후 등록된 인증서 업데이트를 해준다
 mv example.crt /usr/local/share/ca-certificates
 sudo update-ca-certificates
 ```
