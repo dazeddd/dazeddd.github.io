@@ -9,7 +9,8 @@ tags = [
 
 wsl ubuntu 에서 작업을 하는 데 SSL 인증 오류가 발생해서, 해당 도메인의 SSL 인증서를 등록해주는 방법으로 해결하였다.
 
-![pypi](/pypi_ssl_certificate.png)
+<!-- ![pypi](/pypi_ssl_certificate.png) -->
+<img src="/pypi_ssl_certificate.png" width="400">
 
 pypi.org domain 의 ssl 인증서를 등록한다고 했을 때 위와 같은 방법으로 SSL 인증서를 내려받는다
 
