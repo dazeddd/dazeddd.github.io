@@ -1,7 +1,7 @@
 +++
 title = '[책 리뷰] 클린 코드'
 date = 2023-03-01T11:15:45+09:00
-draft = false
+draft = true
 +++
 
 인사이트 출판사의 [클린 코드](https://www.yes24.com/Product/Goods/11681152)를 구입하였다.

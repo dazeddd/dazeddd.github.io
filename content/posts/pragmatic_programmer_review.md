@@ -1,7 +1,7 @@
 +++
 title = '[책 리뷰] 실용주의 프로그래머'
 date = 2023-02-01T10:16:59+09:00
-draft = false
+draft = true
 +++
 
 예스24 에서 [실용주의 프로그래머 20주년 기념판](https://www.yes24.com/Product/Goods/107077663) 을 구입하였다.
