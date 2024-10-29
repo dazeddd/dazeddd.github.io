@@ -1,12 +1,15 @@
 baseURL = 'https://dazeddd.github.io/'
+author = "Joonsoo Lee"
 languageCode = 'ko-kr'
-title = 'Tech Blog'
-theme = 'paper'
 pagination.pagerSize = 5
 
+title = '도움이 되는 기록들'
+
+
 [params]
-    github = 'dazeddd'
-    avatar = 'paulo9428@naver.com'
+  color = 'linen'
+  github = 'dazeddd'
+  avatar = 'paulo9428@naver.com'
 
 [params.giscus]
   repo = 'dazeddd/tech-blog-comments'                 # see https://giscus.app for more details
@@ -22,7 +25,6 @@ pagination.pagerSize = 5
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
 
 [menu]
   [[menu.main]]
