@@ -1,9 +1,8 @@
 ---
-date: 2023-11-03
-draft: false
+date: 2024-11-03
+draft: true
 comments: true
 ---
 
-## 경험을 공유하는 공간입니다
-
+### 기본 이력서
 

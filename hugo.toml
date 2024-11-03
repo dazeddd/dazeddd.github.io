@@ -1,10 +1,8 @@
 baseURL = 'https://dazeddd.github.io/'
 author = "Joonsoo Lee"
+title = '도움이 되는 기록들'
 languageCode = 'ko-kr'
 pagination.pagerSize = 5
-
-title = '도움이 되는 기록들'
-
 
 [params]
   color = 'linen'
@@ -12,7 +10,7 @@ title = '도움이 되는 기록들'
   avatar = 'paulo9428@naver.com'
 
 [params.giscus]
-  repo = 'dazeddd/tech-blog-comments'                 # see https://giscus.app for more details
+  repo = 'dazeddd/tech-blog-comments'       
   repoId = 'R_kgDOKol98A'
   category = 'General'
   categoryId = 'DIC_kwDOKol98M4CapgL'
