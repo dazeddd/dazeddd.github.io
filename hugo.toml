@@ -30,12 +30,7 @@ pagination.pagerSize = 5
     name = "About"
     url = "/about/"
     weight = 10
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 10
-
+  
 [taxonomies]
 category = "categories"
 tag = "tags"
