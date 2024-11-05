@@ -14,7 +14,7 @@ ALTER DEFAULT PRIVILEGES FOR master IN SCHEMA public
 
 위처럼 기본 부여 권한을 설정해놓으면 테이블이나 시퀀스 등을 생성할 때마다 반복되는 권한 부여 작업을 생략할 수 있어 효율적이고 안정적으로 권한 관리를 할 수 있다.
 
-Reference 
+**Reference**
 - https://www.postgresql.org/docs/current/sql-alterdefaultprivileges.html
 - https://www.postgresql.org/docs/current/ddl-priv.html
 
