@@ -1,7 +1,7 @@
 +++
 title = 'Postgresql default previlege 설정하기'
 date = 2024-11-05T21:40:13+09:00
-draft = true
+draft = false
 +++
 
 Postgresql 을 운영하다 보면 테이블이나 시퀀스 등에 기본으로 부여되는 권한을 설정하고 싶을 때가 있다
