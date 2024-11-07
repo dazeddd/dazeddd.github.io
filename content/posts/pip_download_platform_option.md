@@ -1,5 +1,5 @@
 +++
-title = '[Python] pip download --platform 옵션'
+title = '[Python] 오프라인 환경에 필요한 파이썬 패키지 설치하기'
 date = 2023-10-03T20:29:18+09:00
 draft = false
 tags = [
@@ -16,9 +16,12 @@ OS, CPU 등의 차이로 인한 설치 호환성 이슈가 발생할 수 있는�
 mkdir python-packages && cd python-packages
 
 # requirements.txt 에 설치하려는 패키지들을 정리하고, macosx_10_15_x86_64 에서 설치 가능한 패키지 파일을 내려받는다
+python3 -m pip freeze > requirements.txt
 python3 -m pip download --only-binary=:all: --platform macosx_10_15_x86_64 -r requirements.txt
+```
 
-# 설치 환경에서 해당 패키지들을 설치해준다
+```bash
+# 오프라인 환경에서 해당 패키지들을 설치해준다
 python3 -m pip install --no-index --find-links="./" -r requirements.txt
 ```  
 
