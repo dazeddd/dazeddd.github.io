@@ -9,3 +9,5 @@ git submodule update
 hugo new content content/posts/my-post.md
 ```
 
+## Markdown guide
+https://www.markdownguide.org/cheat-sheet/
