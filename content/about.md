@@ -4,5 +4,4 @@ draft: false
 comments: true
 ---
 
-### 기본 이력서
-
+### 안녕하세요. 방문해주셔서 감사합니다.
