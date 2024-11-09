@@ -37,3 +37,7 @@ tag = "tags"
 series = "series"
 
 theme = "paper"
+
+[module]
+  [[module.imports]]
+    path = "github.com/nanxiaobei/hugo-paper"
