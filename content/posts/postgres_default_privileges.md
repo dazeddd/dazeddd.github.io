@@ -1,5 +1,5 @@
 +++
-title = 'Postgresql default previlege 설정하기'
+title = 'PostgreSQL default previlege 설정하기'
 date = 2024-11-05T21:40:13+09:00
 draft = false
 +++

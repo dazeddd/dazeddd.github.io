@@ -1,5 +1,5 @@
 +++
-title = 'Ubuntu 에서 SSL 인증서 등록하는 법'
+title = 'WSL Ubuntu 에서 SSL 인증서 등록하는 법'
 date = 2023-02-07T10:35:17+09:00
 draft = false
 tags = [
