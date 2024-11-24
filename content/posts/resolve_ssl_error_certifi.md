@@ -3,7 +3,7 @@ title = '[Python] certifi 패키지를 활용한 requests SSL 에러 해결'
 date = 2023-03-20T11:29:24+09:00
 draft = false
 tags = [
-    "ssl",
+    "SSL", "python"
 ]
 +++
 

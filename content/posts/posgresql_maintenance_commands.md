@@ -2,6 +2,9 @@
 title = 'PostgreSQL 서버 최적화를 위해 자주 사용하는 명령어'
 date = 2024-11-10T16:29:15+09:00
 draft = false
+tags = [
+    "postgreSQL",
+]
 +++
 
 1. __ANALYZE__<br>

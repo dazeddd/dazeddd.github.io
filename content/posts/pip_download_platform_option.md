@@ -3,7 +3,7 @@ title = '[Python] 오프라인 환경에 필요한 파이썬 패키지 설치하
 date = 2023-10-03T20:29:18+09:00
 draft = false
 tags = [
-    "pip",
+    "pip", "python"
 ]
 +++
 

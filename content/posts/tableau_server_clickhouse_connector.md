@@ -2,6 +2,9 @@
 title = '태블로 서버에 Clickhouse JDBC 커넥터 설치하기'
 date = 2024-11-07T23:08:29+09:00
 draft = false
+tags = [
+    "Tableau",
+]
 +++
 
 태블로 서버상에서 클릭하우스 DB 에 연결하여 시각화를 진행하여야 했다.

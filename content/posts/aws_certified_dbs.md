@@ -3,7 +3,7 @@ title = 'AWS Certified Database - Specialty (DBS-C01) 합격 후기'
 date = 2023-08-23T22:58:54+09:00
 draft = false
 tags = [
-    "aws",
+    "AWS", 
 ]
 +++
 
