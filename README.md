@@ -9,5 +9,11 @@ git submodule update
 hugo new content content/posts/my-post.md
 ```
 
+## local live 모드
+```bash
+hugo server
+```
+
+
 ## Markdown guide
 https://www.markdownguide.org/cheat-sheet/
