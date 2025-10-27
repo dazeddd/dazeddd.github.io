@@ -13,7 +13,3 @@ hugo new content content/posts/my-post.md
 ```bash
 hugo server
 ```
-
-
-## Markdown guide
-https://www.markdownguide.org/cheat-sheet/
