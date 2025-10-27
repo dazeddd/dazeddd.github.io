@@ -1,10 +1,10 @@
 +++
-title = '태블로 Server Client 로 DataSource 변경하기'
+title = '태블로 Server Client API 로 DataSource 변경하기'
 date = 2025-10-27T16:03:51+09:00
 draft = false
 +++
 
-태블로 서버를 관리할 때 [Tableau Server Client for Python](https://tableau.github.io/server-client-python/docs/api-ref#views) 를 활용하여 pragmatic 한 방법으로 편하게 관리할 수 있다.
+태블로 서버를 관리할 때 [Tableau Server Client for Python](https://tableau.github.io/server-client-python/docs/api-ref#views) 를 활용하여 programmatic 한 방법으로 편하게 관리할 수 있다.
 
 상당 부분의 작업은 UI 를 통해 수행할 수 있지만, 시스템 전체적인 변경이나 관리는 API 를 활용하는 게 효율적이다.
 예를 들어 데이터 소스로 쓰고 있는 DB 의 호스트가 변경되었을 때 해당 DB 를 사용하는 데이터 소스를 일일히 수작업으로 변경하기 보다는 API 를 활용하여 벌크로 수정할 수 있다.
