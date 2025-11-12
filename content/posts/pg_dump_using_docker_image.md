@@ -22,6 +22,6 @@ docker run --name postgres-for-psql -e POSTGRES_PASSWORD=$pgpassword -d postgres
 
 ```bash
 # 16 버전의 pg_dump 를 활용할 수 있다.
-docker exec -e PGPASSWORD=$pgpassword {container-id} pg_dump -h {host} -U {user} -d {db} -F custom -v > {dump_file_name}.sql
+docker exec -e PGPASSWORD=$pgpassword postgres-for-psql pg_dump -h {host} -U {user} -d {db} -F custom -v > {dump_file_name}.sql
 ```
 
