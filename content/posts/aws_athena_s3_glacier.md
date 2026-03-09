@@ -22,7 +22,7 @@ standard retrieval 기준으로 대략 12시간이 소요되었다.
 ALTER TABLE table_name SET TBLPROPERTIES ('read_restored_glacier_objects' = 'true')
 ```
 
-혹시 Glacier 에서 복원된 파일을 읽을 때 결과값이 나오지 않는다면, 위 사황을 누락하지 않았는지 체크하면 좋을 것 같다.
+혹시 Glacier 에서 복원된 파일을 읽을 때 결과값이 나오지 않는다면, 위 사항을 누락하지 않았는지 체크하면 좋을 것 같다.
 
 **참고 링크**
 - https://docs.aws.amazon.com/athena/latest/ug/querying-glacier.html
