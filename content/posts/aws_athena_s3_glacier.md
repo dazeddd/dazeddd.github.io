@@ -12,7 +12,7 @@ S3 Glacier Deep Archive 에 저장된 parquet 포맷의 파일들을 읽기 위�
 특정 파일만 복원하는 게 아니라 특정 경로의 모든 parquet 파일을 복원하기 위해서 S3 Batch Operations 을 활용하여 일괄 복원하였고,
 standard retrieval 기준으로 대략 12시간이 소요되었다.
 
-복원 후 parquet 파일의 데이터를 연동하기 위해, EXTERNAL TABLE 및 CTAS 등으로 테이블을 생성하여 데이터를 조회하려고 하는데
+복원 후 parquet 파일의 데이터를 연동하기 위해, AWS Athena EXTERNAL TABLE 및 CTAS 등으로 테이블을 생성하여 데이터를 조회하려고 하는데
 이상하게도 결과값이 나오지 않았다.
 
 에러 로그나 정보성 로그 없이 결과값만 안나오는 상황이어서 여러모로 헤메다가, 아래와 같은 테이블 프로퍼티를 설정해 주어야 함을 발견하였다.<br>
