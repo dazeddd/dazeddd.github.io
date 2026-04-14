@@ -1,7 +1,6 @@
 ## git clone 해서 작업할 경우
-
 ```bash
-git submodule update
+git submodule update --init --recursive
 ```
 
 ## post 생성
